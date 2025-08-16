@@ -1,0 +1,35 @@
+# 1. 依赖包
+node_modules/
+.pnpm/
+.yarn/
+
+# 2. 构建输出目录（VitePress 核心）
+.vitepress/dist
+/dist
+
+# 3. 环境变量文件（敏感信息）
+.env
+.env.local
+.env.development
+.env.production
+!.env.example  # 可以提交示例文件
+
+# 4. 编辑器和操作系统文件
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+*.swp
+*.swo
+
+# 5. 日志和缓存
+logs
+*.log
+.cache
+.vercel  # 如果你用 Vercel 部署
+
+# 6. 开发服务器生成的文件
+.temp

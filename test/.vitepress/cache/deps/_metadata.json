@@ -1,0 +1,40 @@
+{
+  "hash": "9f759625",
+  "configHash": "c9d984a5",
+  "lockfileHash": "45a398be",
+  "browserHash": "bb6acc65",
+  "optimized": {
+    "vue": {
+      "src": "../../../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
+      "file": "vue.js",
+      "fileHash": "62aaecb5",
+      "needsInterop": false
+    },
+    "vitepress > @vue/devtools-api": {
+      "src": "../../../../node_modules/@vue/devtools-api/dist/index.js",
+      "file": "vitepress___@vue_devtools-api.js",
+      "fileHash": "7c736be0",
+      "needsInterop": false
+    },
+    "vitepress > @vueuse/core": {
+      "src": "../../../../node_modules/@vueuse/core/index.mjs",
+      "file": "vitepress___@vueuse_core.js",
+      "fileHash": "efb4cead",
+      "needsInterop": false
+    },
+    "@theme/index": {
+      "src": "../../../../node_modules/vitepress/dist/client/theme-default/index.js",
+      "file": "@theme_index.js",
+      "fileHash": "b3ae73f5",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-ZTESHZRN": {
+      "file": "chunk-ZTESHZRN.js"
+    },
+    "chunk-IGFXIFUX": {
+      "file": "chunk-IGFXIFUX.js"
+    }
+  }
+}
