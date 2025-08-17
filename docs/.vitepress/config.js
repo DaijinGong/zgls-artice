@@ -15,9 +15,10 @@ export default {
         logo: '/guoyu.jpg',
         nav: [
             { text: "首页", link: "/" },
+            { text: "网站介绍", link: "/intro/web-intro.md" },
         ],
         outline: {
-            level: [2, 3],     // 显示 h2 到 h3
+            level: [2, 3,4],     // 显示 h2 到 h3
             label: '本页目录'
         },
         sidebar: [
@@ -25,7 +26,6 @@ export default {
                 text: "雪映專集介紹",
                 collapsed: true,
                 items: [
-                    { text: "网站介绍", link: "/intro/web-intro.md" },
                     { text: "雪映專集介紹", link: "/intro/book-intro.md" },
                     { text: "十年学佛路", link: "/intro/十年学佛路" },
                 ]
